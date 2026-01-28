@@ -29,7 +29,7 @@ app.post("/api/calculate", (req, res) => {
     publicTransport: pt * 0.05,
     water: w * 0.001,
     waste: ws * 0.5,
-    shopping: (sh/270) * 0.05,
+    shopping: (sh/270) * 0.09,
   };
 
   const total = Object.values(details).reduce((a, b) => a + b, 0);
